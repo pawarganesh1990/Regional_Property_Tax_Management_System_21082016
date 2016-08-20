@@ -1,0 +1,139 @@
+
+html{
+	background-color:#2F2F2F;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+body, #mainWrapper {
+	height: 100%;
+	background-image: -webkit-gradient(
+	linear,
+	right bottom,
+	right top,
+	color-stop(0, #EDEDED),
+	color-stop(0.08, #EAEAEA),
+	color-stop(1, #2F2F2F),
+	color-stop(1, #AAAAAA)
+);
+background-image: -o-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: -moz-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: -webkit-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: -ms-linear-gradient(top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+background-image: linear-gradient(to top, #EDEDED 0%, #EAEAEA 8%, #2F2F2F 100%, #AAAAAA 100%);
+}
+
+body, #mainWrapper, .form-control{
+	font-size:12px!important;
+}
+
+#mainWrapper {
+	/*height: 720px; Without explicit px values, % in children's does not work*/
+	height: 100vh; /*with Viewport-Percentage, we can handles all devices screens  */
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.login-container {
+    margin-top: 100px;
+    background-color: floralwhite;
+    width: 40%;
+    left: 30%;
+    position: absolute;
+}
+
+.login-card {
+    width: 80%;
+    margin: auto;
+}
+.login-form {
+    padding: 10%;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 12px;
+	box-shadow: 0 9px #999;
+}
+
+
+.button:hover {
+	background-color: #3e8e41
+}
+
+.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 8px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #555;
+	outline: none;
+	color: blue;
+}
+
+input[type=text]:focus {
+	background-color: lightblue;
+}
+
+input[type=password] {
+	width: 100%;
+	padding: 8px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #555;
+	outline: none;
+}
+
+input[type=password]:focus {
+	background-color: lightblue;
+}
+
+ label {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 100%;
+  font-family:serif;
+  padding-top: .1em;
+  padding-right: .25em;
+  width: 6em;
+  text-align: right;
+  float: left;
+  color: blue;
+} 
