@@ -5,7 +5,7 @@
 	<h1>Title : ${title}</h1>
 	<h1>Message : ${message}</h1>
 <tr>
-				<th>	<li><a class="h8" href="<core:url value="user/managenewuser"/> "><h2>new user</h2></a></li></th>
+				<th>	<li><a class="h8" href="<c:url value="user/managenewuser"/> "><h2>new user</h2></a></li></th>
 			</tr>
 
 	<sec:authorize access="hasRole('ROLE_USER')">
